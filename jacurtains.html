@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor - Curtains & Beddings</title>
+    <style>
+        /* Basic styles for the webpage */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .product-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-item {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #ff6347;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            display: inline-block; /* Make sure buttons are inline */
+            margin-right: 10px; /* Space between buttons */
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Our Home Decor Store</h1>
+        <p>Your one-stop shop for high-quality curtains, beddings, and more!</p>
+    </header>
+
+    <section>
+        <h2>Our Specialization</h2>
+        <p>We specialize in high-quality curtains and beddings. Our curtain collection includes heavy curtains, sheers,
+            curtain boxes, and curtains with rods. For beddings, we offer soft bed sheets, stylish bed covers, cozy
+            pillows, and custom-made throw pillows. Additionally, we have durable doormats and elegant table mats. We also
+            offer Egyptian cotton towels, beach towels, and kid-friendly options.</p>
+        <p><span class="highlight">Explore our range and enhance your home decor!</span></p>
+    </section>
+
+    <section>
+        <h2>Popular Products</h2>
+        <ul class="product-list">
+            <li class="product-item">Heavy Curtains</li>
+            <li class="product-item">Stylish Bed Sheets</li>
+            <li class="product-item">Egyptian Cotton Towels</li>
+            <li class="product-item">Custom Throw Pillows</li>
+        </ul>
+    </section>
+
+    <section>
+        <!-- Buttons to interact with the page -->
+        <button onclick="changeText()">Click to Change Text</button>
+        <button onclick="addProduct()">Add Product</button>
+        <button onclick="removeProduct()">Remove Last Product</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Home Decor Store | <a href="mailto:paulineakoth2002@gmail.com">Contact Us</a></p>
+    </footer>
+
+    <!-- Link to External JavaScript File -->
+    <script src="jacurtains.js"></script>
+</body>
+
+</html>
